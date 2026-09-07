@@ -2,7 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css"/>
-
     <style>
         img {
             padding: 5px;
@@ -13,32 +12,31 @@
             border-radius: 20px;
         }
     </style>
-
 </head>
+
 <body>
     <header>
         <h1>Activity: Creating An Image Map</h1>
     </header>
-    <p>Kay Nae Oo</p>
 
+    <p>Kay Nae Oo</p>
     <p>9/26/2026</p>
 
     <section>
+        <img id="image_to_map" src="media/ch03_image-to-map.jpg" alt="the image in the media subdirectory" usemap="image_to_map" />
 
-        <img id="image_to_map" src="media/ch03_image-to-map.jpg" alt="the image in the media subdirectory" class="img_border" />
-
-        <map name="image_to_map">
-            
+        <map name="image_to_map">  
             <area shape="rect" coords="10,220,220,385" alt="this takes you to rectangle mapping" href="rect.html">
 
             <area shape="circle" coords="180,5,380,200" alt="this takes you to circle mapping" href="circle.html">
 
             <area shape="poly" coords="370,220,570,385" alt="this takes you to polygon mapping" href="poly.html">
-
         </map>
     </section>
+
     <footer id="footer">
         <p>&copy;2026, Kay Nae Oo</p>
     </footer> 
 </body>
 </html>
+
