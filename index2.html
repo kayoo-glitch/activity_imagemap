@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <style>
+        img {
+            padding: 5px;
+            margin: 5px;
+            border-style: solid;
+            border-color: rgb(175,175,175) rgb(200,200,200);
+            background-color: black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Activity: Creating An Image Map</h1>
+    </header>
+
+    <p>Kay Nae Oo</p>
+    <p>9/26/2026</p>
+
+    <section>
+        <img id="image_to_map" src="media/ch03_image-to-map.jpg" alt="the image in the media subdirectory" usemap="#image_mapping" />
+
+        <map name="image_mapping">  
+            <area shape="rect" coords="80, 150, 130, 80" alt="this takes you to rectangle mapping" href="rect.html">
+
+            <area shape="circle" coords="428, 100, 57" alt="this takes you to circle mapping" href="circle.html">
+
+            <area shape="poly" coords="170,70,170,80,190,90,330,90,345,80,345,70,330,55,190,55" alt="this takes you to polygon mapping" href="poly.html">
+        </map>
+    </section>
+
+    <footer id="footer">
+        <p>&copy;2026, Kay Nae Oo</p>
+    </footer> 
+</body>
+</html>
