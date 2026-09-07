@@ -2,3 +2,12 @@ section img#ch03_image-to-map.jpg {
     width: 560px;
     height: 400px;
 }
+
+.img_border {
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(175,175,175) rgb(200,200,200);
+    background-color: black;
+    border-radius: 20px;
+}
